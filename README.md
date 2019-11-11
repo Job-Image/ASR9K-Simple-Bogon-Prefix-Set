@@ -5,9 +5,11 @@ The intent of this project is to have a simple bogon set to filter routes from t
 
 #IPv4
 
-https://www.iana.org/assignments/ipv4-address-space/ipv4-address-space.txt
+https://www.iana.org/assignments/ipv4-address-space/ipv4-address-space.xhtml
+https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xhtml
 
 #IPv6
 
 https://www.iana.org/assignments/ipv6-unicast-address-assignments/ipv6-unicast-address-assignments.xhtml
+https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xhtml
 http://www.cidr-report.org/v6/as2.0/reserved-ipv6.html
