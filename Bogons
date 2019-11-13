@@ -53,13 +53,38 @@ prefix-set PS-BOGONS
   2001:40::/26 le 128,
   2001:80::/25 le 128,
   2001:100::/24 le 128,
-  2001:200::/23 le 128,
-  2001:400::/22 le 128,
-  2001:800::/21 le 128,
-  2001:1000::/20 le 128,
-  2001:2000::/19 le 128,
-  2001:4000::/18 le 128,
-  2001:8000::/17 le 128,
+  # Allow 2001:200::/23 APNIC
+  # Allow 2001:400::/23 ARIN
+  # Allow 2001:600::/23 RIPE
+  # Allow 2001:800::/22 RIPE
+  # Allow 2001:c00::/24 APNIC
+  # Allow 2001:d00::/25 APNIC
+  # Allow 2001:d80::/27 APNIC
+  # Allow 2001:da0::/28 APNIC
+  # Allow 2001:db0::/29 APNIC
+  2001:db8::/32 le 128,
+  # Allow 2001:db9::/32 APNIC
+  # Allow 2001:dba::/31 APNIC
+  # Allow 2001:dbc::/30 APNIC
+  # Allow 2001:dc0::/26 APNIC
+  # Allow 2001:e00::/23 APNIC
+  # Allow 2001:1200::/23 LACNIC
+  # Allow 2001:1400::/22 RIPE
+  # Allow 2001:1800::/23 ARIN
+  # Allow 2001:1a00::/23 RIPE	
+  # Allow 2001:1c00::/22 RIPE
+  # Allow 2001:2000::/19 RIPE
+  # Allow 2001:4000::/23 RIPE
+  # Allow 2001:4200::/23 AFRINIC	
+  # Allow 2001:4400::/23 APNIC	
+  # Allow 2001:4600::/23 RIPE
+  # Allow 2001:4800::/23 ARIN
+  # Allow 2001:4a00::/23 RIPE
+  # Allow 2001:4c00::/23 RIPE
+  # Allow 2001:5000::/20 RIPE
+  # Allow 2001:8000::/19 APNIC
+  # Allow 2001:a000::/20 APNIC
+  # Allow 2001:b000::/20 APNIC
   # Allow 2002::/16 6to4
   # Allow 2620:4f:8000::/48 Direct Delegation AS112 Service
   2d00::/8 le 128,
