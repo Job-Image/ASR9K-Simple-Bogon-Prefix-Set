@@ -86,7 +86,17 @@ prefix-set PS-BOGONS
   # Allow 2001:a000::/20 APNIC
   # Allow 2001:b000::/20 APNIC
   # Allow 2002::/16 6to4
+  # Allow 2003::/18 RIPE
+  # Allow 2400::/12 APNIC
+  # Allow 2600::/12 ARIN
+  # Allow 2610::/23 ARIN
+  # Allow 2620::/23 ARIN
   # Allow 2620:4f:8000::/48 Direct Delegation AS112 Service
+  # Allow 2630::/12 ARIN
+  # Allow 2800::/12 LACNIC
+  # Allow 2a00::/12 RIPE
+  # Allow 2a10::/12 RIPE
+  # Allow 2c00::/12 AFRINIC
   2d00::/8 le 128,
   2e00::/7 le 128,
   3000::/4 le 128,
