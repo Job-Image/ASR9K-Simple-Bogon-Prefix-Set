@@ -60,7 +60,7 @@ prefix-set PS-BOGONS
   2001:2000::/19 le 128,
   2001:4000::/18 le 128,
   2001:8000::/17 le 128,
-  2002::/16 le 128,
+  # Allow 2002::/16 6to4
   # Allow 2620:4f:8000::/48 Direct Delegation AS112 Service
   2d00::/8 le 128,
   2e00::/7 le 128,
