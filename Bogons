@@ -88,6 +88,8 @@ prefix-set PS-BOGONS
   # Allow 2001:b000::/20 APNIC
   # Allow 2002::/16 6to4
   # Allow 2003::/18 RIPE
+  2003:4000::/18 le 128,
+  2003:8000::/17 le 128,
   # Allow 2400::/12 APNIC
   # Allow 2600::/12 ARIN
   # Allow 2610::/23 ARIN
