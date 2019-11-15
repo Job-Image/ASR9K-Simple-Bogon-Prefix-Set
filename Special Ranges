@@ -11,7 +11,8 @@ RFC4380 Teredo: Tunneling IPv6 over UDP through Network Address Translations (NA
    An IPv6 addressing prefix whose value is 2001::/32 no more-specifics.
 
 
-ORCHIDv2 2001:20::/28 le 128
+ORCHIDv2 # Deny 2001:20::/28, Deny more-specifics.
+  2001:20::/28 le 128
 
 RFC7343 An IPv6 Prefix for Overlay Routable Cryptographic Hash Identifiers Version 2 (ORCHIDv2)
 
