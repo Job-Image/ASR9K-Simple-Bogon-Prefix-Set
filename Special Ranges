@@ -1,6 +1,6 @@
 Special Ranges.
 
-Toredo # Allow 2001::/32 TEREDO, Deny more-specifics.
+Toredo # Allow 2001::/32, Deny more-specifics.
   2001:0::/33 le 128,
   2001:0:8000::/33 le 128,
 
