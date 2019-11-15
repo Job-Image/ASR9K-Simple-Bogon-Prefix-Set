@@ -25,7 +25,7 @@ prefix-set PS-BOGONS
   400::/6 le 128,
   800::/5 le 128,
   1000::/4 le 128,
-  # Allow 2001::/32 TEREDO
+  # Allow 2001::/32 TEREDO, Deny more-specifics.
   2001:0::/33 le 128,
   2001:0:8000::/33 le 128,
   2001:1::/32 le 128,
