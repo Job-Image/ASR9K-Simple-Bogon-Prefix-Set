@@ -1,0 +1,38 @@
+Special Ranges.
+
+Toredo # Allow 2001::/32 TEREDO, Deny more-specifics.
+  2001:0::/33 le 128,
+  2001:0:8000::/33 le 128,
+
+RFC4380 Teredo: Tunneling IPv6 over UDP through Network Address Translations (NATs)
+
+  Global Teredo IPv6 Service Prefix
+
+   An IPv6 addressing prefix whose value is 2001::/32 no more-specifics.
+
+
+ORCHIDv2 2001:20::/28 le 128
+
+RFC7343 An IPv6 Prefix for Overlay Routable Cryptographic Hash Identifiers Version 2 (ORCHIDv2)
+
+  Routing and Forwarding Considerations
+
+   ORCHIDs are designed to serve as location-independent endpoint
+   identifiers rather than IP-layer locators.  Therefore, routers MAY be
+   configured not to forward any packets containing an ORCHID as a
+   source or a destination address.  If the destination address is an
+   ORCHID but the source address is a valid unicast source address,
+   routers MAY be configured to generate an ICMP Destination
+   Unreachable, Administratively Prohibited message.
+
+   ORCHIDs are not designed for use in IPv6 routing protocols, since
+   such routing protocols are based on the architectural definition of
+   IPv6 addresses.  Future non-IPv6 routing systems, such as overlay
+   routing systems, may be designed based on ORCHIDs.  Any such ORCHID-
+   based routing system is out of scope of this document.
+
+   Router software MUST NOT include any special handling code for
+   ORCHIDs.  In other words, the non-routability property of ORCHIDs, if
+   implemented, is to be implemented via configuration rather than by
+   hardwired software code, e.g., the ORCHID prefix can be blocked by a
+   simple configuration rule such as an Access Control List entry.
