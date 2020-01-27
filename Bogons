@@ -26,8 +26,7 @@ prefix-set PS-BOGONS
   800::/5 le 128,
   1000::/4 le 128,
   # Allow 2001::/32 TEREDO, Deny more-specifics.
-  2001:0::/33 le 128,
-  2001:0:8000::/33 le 128,
+  2001::/32 ge 33 le 128,
   2001:1::/32 le 128,
   2001:2::/32 le 128,
   # Allow 2001:3::/32 AMT
@@ -89,8 +88,7 @@ prefix-set PS-BOGONS
   # Allow 2001:a000::/20 APNIC
   # Allow 2001:b000::/20 APNIC
   # Allow 2002::/16 6to4, Deny more-specifics.
-  2002::/17 le 128,
-  2002:8000::/17 le 128,
+  2002::/16 ge 17 le 128,
   # Allow 2003::/18 RIPE
   2003:4000::/18 le 128,
   2003:8000::/17 le 128,
