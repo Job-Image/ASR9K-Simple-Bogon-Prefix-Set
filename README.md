@@ -1,5 +1,5 @@
 # ASR9K-Simple-Bogon-Prefix-Set
-ASR9K Simple Bogon Prefix Set For Filtering Transit AS Routes
+ASR9K / IOS XR Simple Bogon Prefix Set For Filtering Transit AS Routes
 
 The intent of this project is to have a simple bogon set to filter routes from transit AS, both IPv4 and IPv6. This is something the IANA should do a better job of. If there are any mistakes please put in a change and I will verify and update. Below are sources, besides WHOIS, used for this project.
 
