@@ -1,12 +1,12 @@
 Routes in the IANA space as seen on IRR Explorer.
 
 # IANA 2001::/23
-2001:4:112::/48	    Multiple route-object exist with different origins
-2001:54:3a::/48			Look like network is not announcing registered v6 prefix yet
-2001:5:1::/48		    Look like network is not announcing registered v6 prefix yet
-2001:5:8::/48				Look like network is not announcing registered v6 prefix yet
-2001::/32	6939	    Prefix in DFZ, but no route-object with correct origin anywhere
-2001:c0:3::/48	    Prefix in DFZ, but no route-object with correct origin anywhere
-2001:dc::/35		    Look like network is not announcing registered v6 prefix yet
+2001:4:112::/48     Multiple route-object exist with different origins
+2001:54:3a::/48     Look like network is not announcing registered v6 prefix yet
+2001:5:1::/48       Look like network is not announcing registered v6 prefix yet
+2001:5:8::/48       Look like network is not announcing registered v6 prefix yet
+2001::/32           Prefix in DFZ, but no route-object with correct origin anywhere
+2001:c0:3::/48      Prefix in DFZ, but no route-object with correct origin anywhere
+2001:dc::/35        Look like network is not announcing registered v6 prefix yet
 
 Prefixes 2001::/32 and 2001:c0:3::/48 should be in DFZ???
